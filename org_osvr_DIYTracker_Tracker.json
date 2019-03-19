@@ -1,0 +1,22 @@
+{
+  "deviceVendor": "DandyVR",
+  "deviceName": "Controller Tracker",
+  "author": "Jeremy Bell jeremy@sensics.com",
+  "version": 2,
+  "lastModified": "",
+  "interfaces": {
+    "tracker": {
+      "count": 1,
+      "bounded": true,
+      "position": false,
+      "orientation": true
+    }
+  },
+  "semantic": {
+    "hmd": "tracker/0"
+  },
+  "automaticAliases": {
+    "/controller/left": "DandyVR/hmd",
+	"/me/hands/left": "DandyVR/hmd"
+  }
+ }
